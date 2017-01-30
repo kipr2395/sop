@@ -1,0 +1,37 @@
+*{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+}
+header{
+	text-align: center;
+	background-color: gray;
+}
+h1{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+a{
+	color:#31152B;
+	text-decoration: none;
+}
+section{
+	width: 600px;
+	margin: 100px auto 0px auto;
+	
+}
+ul{
+	width:500px;
+	margin: 0px auto 0px auto;
+}
+p{
+	margin: 20px 0px 20px 0px;
+}
+strong{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
