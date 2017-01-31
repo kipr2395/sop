@@ -9,8 +9,9 @@ body{
 }
 header{
 	text-align: center;
-	background-color: gray;
+	font-family: 'Raleway', sans-serif;
 }
+
 h1{
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -19,15 +20,20 @@ a{
 	color:#31152B;
 	text-decoration: none;
 }
+a:hover{
+	color:#CC4452;
+}
 section{
 	width: 600px;
-	margin: 100px auto 0px auto;
+	margin: 75px auto 0px auto;
 	
 }
 ul{
 	width:500px;
 	margin: 0px auto 0px auto;
+
 }
+
 p{
 	margin: 20px 0px 20px 0px;
 }
@@ -35,3 +41,53 @@ strong{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
+
+
+div.buttons{
+	text-align: center;
+
+
+}
+div.dot{
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 20px;
+
+
+
+}
+button{
+    background-color: #CC4452; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.buttons{
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
