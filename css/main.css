@@ -1,5 +1,5 @@
 body{
-	background-color: #723147;
+	background-color: #4C1D22;
 /*	background-image: url(../img/wood.jpg);
 	background-position: center top;
 	background-size: fill;
@@ -30,15 +30,16 @@ li{
 
 }
 a{
-	color:#31152B;
+	color:#4C1D22;
 	text-decoration: none;
 
 
 }
-h2:hover{
-	margin-top: 70px;
-	font-size: 40px;
+a:hover{
+	color:#993A44;
+
 }
+
 h2{
 margin-top: 80px;
 font-size: 30px;

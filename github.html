@@ -7,29 +7,53 @@
 		<title>Github</title>
 		<link href="css/github.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Raleway:400,700" rel="stylesheet">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/github.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
 	<header>
 		<h1><a href="index.html">Home</a></h1>
 	</header>
-	<section>
-		<p>Dear GitHub,</p>
 
+	<div class="navbuttons">
+		<button class="last">Last</button>
+		<button class="next">Next</button>
+	
+
+	</div>
+
+	<div class="heartcontain">
+	<div class="heart"></div>
+	</div>
+
+<div class="container">
+	<div class="slide" id="one" >
+		<p>Dear GitHub,</p>
+	</div>
+
+	<div class="slide" id="2">
 		<p>You are the true MVP amongst us beginner programmers. You let us back up our work, share our codes, and even work collaboratively. To show my appreciation, here's a few things I love about you.
 		</p>
+	</div>
 
+	<div class="slide" id="3">
 		<ul>
 			<li>I just have to click <strong>new repository</strong> to create a repo, and you even tell me what to do next if I'm lost</li>
 			<li>Then, to upload my changes, I just have to go back to my trusty terminal and say <strong>git remote add origin https://github.com/kipr2395/'reponame'</strong>, followed by <strong>git push -u origin master</strong></li>
 		</ul>
-
+	</div>
+	<div class="slide" id="4">
 		<p>I love knowing that you always have my back, especially if anything were to ever happen to my computer.</p>
 		
 		<p>Love,
 		<br>Kimberly Preston
 		</p>
-	</section>	
+	</div>	
+	</div>
+
+
+	
 	</body>
 </html>

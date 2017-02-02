@@ -4,11 +4,11 @@ $(document).ready(function(){
 
 		 $(".one").click(function(){
         $(".firstlist").show();
-        $(".one").hide();
+        $("div").remove("#bone");
     });
 		 $(".two").click(function(){
         $(".secondlist").show();
-        $(".two").hide();
+        $("div").remove("#btwo");
     });
 
 
